@@ -17,7 +17,6 @@ type Props = {
 }
 
 const Home = ({ setSelectedPage }: Props) => {
-
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
@@ -26,7 +25,8 @@ const Home = ({ setSelectedPage }: Props) => {
    className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0"
    >
     { /* IMAGE AND MAIN HEADER */}
-    <motion.div className="md: mx-auto w-5/6 items-center justify-center md:h-5/6"
+    <motion.div
+     className="mx-auto w-5/6 items-center justify-center md:h-5/6 md:flex"
     onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
     >
         { /* MAIN HEADER */}

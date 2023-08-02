@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { SelectedPage } from './shared/types';
 SelectedPage;
 import Home from '@/scenes/home';
+import Benefits from '@/scenes/benefits';
 
 
 
@@ -30,6 +31,7 @@ return () => window.removeEventListener("scroll", handleScroll)
     setSelectedPage={setSelectedPage}
     />
     <Home setSelectedPage={setSelectedPage} />
+    <Benefits setSelectedPage={setSelectedPage} />
   </div>
 }
 
