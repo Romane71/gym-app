@@ -1,7 +1,8 @@
 import NavBar from '@/scenes/navbar';
 import { useEffect, useState } from 'react';
 import { SelectedPage } from './shared/types';
-SelectedPage
+SelectedPage;
+import Home from '@/scenes/home';
 
 
 
@@ -28,6 +29,7 @@ return () => window.removeEventListener("scroll", handleScroll)
     selectedPage={selectedPage}
     setSelectedPage={setSelectedPage}
     />
+    <Home setSelectedPage={setSelectedPage} />
   </div>
 }
 
