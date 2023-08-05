@@ -66,7 +66,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             <div className="md:w-3/5">
                 <HText>OUR CLASSES</HText>
                 <p className="py-5">
-                    vkfdjjgjrefoijvnfkjdvfdjhrifdvndvfdnjrffnvjdkffjeiofjesvndfjghreifjvifjgvrgjeg
+                Whether you want to lose weight, tone up, improve strength, or just have fun with others, there's something for everyone. Our Fitness Class Coaches will empower you to reach your goals in a fun and supportive community
                 </p>
             </div>
         </motion.div>

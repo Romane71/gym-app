@@ -22,7 +22,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
    <section
    id="home"
-   className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0"
+   className="gap-16 bg-blue-100 py-10 md:h-full md:pb-0"
    >
     { /* IMAGE AND MAIN HEADER */}
     <motion.div
@@ -51,8 +51,7 @@ const Home = ({ setSelectedPage }: Props) => {
     </div>
 
     <p className="mt-8 text-sm">
-        Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body
-        Shapes That you Dream of... Get Your Dream Body NOW!
+    OUR GOAL IS TO HELP YOU REACH YOURS.
     </p>
   </motion.div>
 

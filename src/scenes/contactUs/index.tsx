@@ -46,7 +46,7 @@ const onSubmit = async (e: any) =>  {
     <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
   </HText>
   <p className="my-5">
- fdkfldjfdlkfjdlkfjdlkfjlfjlfjdlkjlgiordfmvdklvndfklgjeroijtreoijgreo
+ Drop us a message NOW and we will get in touch with you within 24 HOURS.
   </p>
   </motion.div>
 

@@ -13,19 +13,19 @@ const benefits: Array<BenefitType> = [
 
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
-    description: "kjflfjlkjfjsljdkldjsjsfdvjdfjvdfhvdfhizhvidfv"
+    description: "Our spacious, air-conditioned gymnasiums are fully equipped With a comprehensive range of cardio equipments such as treadmills, steppers and elipticals per club, and over 3 tons of free weight equipment as well as the stretch area, we can provide you with all the encouragement you need to achieve your goals."
 }, 
 {
 
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
-    description: "mcdndkcjvksdjsfkvhnjkcnsdjkfcdkvdsnfkdsvfs"
+    description: "Our studio programs offer an exciting range of classes including world renowned Les Mills programs such as BODYCOMBAT™, BODYPUMP™, BODYBALANCE™, BODYVIVE™, RPM™ and Yoga, Tai Chi and everything in-between. The studio is built on a fully sprung floor for your safety and the programs have been designed specifically to cater for the needs of all ages and abilities as well as at times that will suit you."
 },
 {
 
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
-    description: "kjflfjlkjfjsljdkldnsjkdnsjkcnsdcjksncjdnsmnfdjnvdfnjv"
+    description: "Personal Training is not just for movie stars! Now you can get affordable personal training to help you achieve your fitness goals. Maximize results with minimum time! For more information on how we can help you achieve your goals, please speak to our Fitness Manager or any of our Personal Trainers."
 }
 ]
 
@@ -118,7 +118,7 @@ const Benefits = ({setSelectedPage}: Props) => {
            }}>
 
             <HText>
-                            MILLIONS OF HAPPY MEMBERS GETTING{" "}
+                            THOUSANDS OF HAPPY MEMBERS GETTING{" "}
                             <span className="text-primary-500">FIT</span>
                         </HText>
                         </motion.div>
@@ -133,8 +133,8 @@ const Benefits = ({setSelectedPage}: Props) => {
                hidden: { opacity: 0, x:50},
                visible: { opacity: 1, x: 0}
              }}>
-                    <p className="my-5">jjffieowjfieufewifheliufheuwfhsufhefihenfiuehfreiufheriufhreuifhreuifheriufherifheifheifhielfa</p>
-                    <p className="mb-5">fdmfnjfndjhdfurhfuiehrfncdjhuidfhwofjfijfifojovdjweifjeifjhnvfihoirjeiojnv</p>
+                    <p className="my-5"></p>
+                    <p className="mb-5">JOIN A WORLWIDE COMMUNITY, WITH ACCESS TO ONLINE COACHING</p>
                 </motion.div>
                 { /* BUTTON */}
 
